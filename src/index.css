@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Short Stack';
+
+}
+
+*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
