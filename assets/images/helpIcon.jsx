@@ -1,8 +1,10 @@
 import React from "react";
 
-export default function HelpIcon() {
+export default function HelpIcon({setIsModal}) {
   return (
     <svg
+      onClick={setIsModal}
+      style={{cursor:"pointer",position:"relative",zIndex:100 }}
       width="63"
       height="66"
       viewBox="0 0 93 66"

@@ -24,7 +24,7 @@ import InfoClockIcon from "../../../assets/images/infoClockIcon";
 import InfoHomeIcon from "../../../assets/images/infoHomeIcon";
 import HelpIcon from "../../../assets/images/helpIcon";
 
-export default function Week2({nextPage,prevPage}) {
+export default function Week2({nextPage,prevPage,setIsModal}) {
   return (
     <div className={styles.parent}>
       <div className={styles.header}>
@@ -97,7 +97,7 @@ export default function Week2({nextPage,prevPage}) {
 
       <div className={styles.rightSideBar}>
         <Scale />
-        <HelpIcon />
+        <HelpIcon setIsModal={setIsModal}/>
         <Hat />
         <div className={styles.rightBackground}></div>
       </div>
